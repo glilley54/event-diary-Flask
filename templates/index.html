@@ -14,13 +14,10 @@
     <input type="text" name="room" id="room">
     <label for="description">Event Description:</label>
     <input type="text" name="description" id="description">
-
+    <label for="recurring">Recurring?</label>
+    <input type="checkbox" name='recurring' id='recurring'>
     <input type="submit" value="Add Event">
 </form>
-
-
-
-
 
 {% for event in events %}
 <div>
@@ -28,4 +25,5 @@
 </div>
 
 {% endfor %}
+
 {% endblock %}

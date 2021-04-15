@@ -12,18 +12,16 @@ Your application should have a single class - Event - and should contain the fol
 * Description
 
 Provide the following functionality:
-* List all events
-* Create an event in the event planner.
+* List all events 👍
+* Create an event in the event planner. 👍
 
 ### Extensions
-
 * Add a `recurring` boolean property to the Event.
 * Give the user visual feedback on what events are recurring
 * Use an HTML date picker instead of a text input for the new event date.
 * Style the app using CSS
 
 ## Advanced Extensions
-
 * Delete the items from the list (either use index or event name to do this)
     * Because we can't use the `DELETE` HTTP method you will need to create a `POST` route to `/events/delete/<index>` in order to avoid conflicts!
 * Anything else you can think of
