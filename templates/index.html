@@ -7,7 +7,7 @@
     <label for="event_name">Event Name:</label>
     <input type="text" name="event_name" id="event_name">
     <label for="date">Event Date:</label>
-    <input type="text" name="date" id="date">
+    <input type="date" name="date" id="date">
     <label for="guests">No. of Guests:</label>
     <input type="int" name="guests" id="guests">
     <label for="room">Room Location:</label>
@@ -22,6 +22,9 @@
 {% for event in events %}
 <div>
     {{event.event_name}}: {{event.date}}, {{event.guests}}, {{event.room}}, {{event.description}} <br>
+        {% if event.recurring %}
+        <span> &#9989;</span>
+        {% endif %}
 </div>
 
 {% endfor %}
