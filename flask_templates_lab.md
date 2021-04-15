@@ -16,9 +16,9 @@ Provide the following functionality:
 * Create an event in the event planner. 👍
 
 ### Extensions
-* Add a `recurring` boolean property to the Event.
-* Give the user visual feedback on what events are recurring
-* Use an HTML date picker instead of a text input for the new event date.
+* Add a `recurring` boolean property to the Event.👌
+* Give the user visual feedback on what events are recurring👌
+* Use an HTML date picker instead of a text input for the new event date.👌
 * Style the app using CSS
 
 ## Advanced Extensions
